@@ -42,7 +42,7 @@
         .card:hover { transform: scale(1.03); transition: transform 0.3s; }
 
         footer {
-            background: #2575fc;
+            background: #061222;
             color: white;
             padding: 40px 0 20px;
             text-align: center;
@@ -55,6 +55,37 @@
 
         footer a:hover {
             text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+          .hero {
+            height: 55vh;
+          }
+          #heroCarousel .carousel-item img {
+            height: 55vh;
+          }
+          .hero-content {
+            padding: 10px;
+          }
+          .hero h1 {
+            font-size: 1.5rem;
+          }
+          .hero p {
+            font-size: 0.95rem;
+          }
+          .services .row {
+            flex-direction: column;
+          }
+          .card {
+            margin-bottom: 20px;
+          }
+          .card img {
+            height: 160px;
+          }
+          .navbar .container {
+            flex-direction: column;
+            align-items: flex-start;
+          }
         }
     </style>
 </head>

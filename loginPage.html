@@ -110,6 +110,42 @@
     z-index: -1; 
 }
 
+        @media (max-width: 768px) {
+            .hero {
+                height: 55vh;
+            }
+            .slide,
+            .hero .slide {
+                height: 55vh !important;
+            }
+            .hero-content {
+                padding: 10px;
+            }
+            .hero h1 {
+                font-size: 1.5rem;
+            }
+            .hero h3 {
+                font-size: 1.1rem;
+            }
+            .hero p {
+                font-size: 0.95rem;
+            }
+            .venues {
+                grid-template-columns: 1fr;
+                padding: 10px;
+            }
+            .venue-card img {
+                height: 140px;
+            }
+            .venue-card {
+                margin-bottom: 20px;
+            }
+            .navbar .container-fluid {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+
     </style>
 </head>
 <body>

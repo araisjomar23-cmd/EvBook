@@ -11,7 +11,7 @@
 
         .hero {
     position: relative;
-    background: url('../img/jlyn/jlyn1.jpg') center/cover no-repeat;
+    background: url('../img/sitos/sitos1.jpg') center/cover no-repeat;
     height: 50vh;
     display: flex;
     justify-content: center;
@@ -43,7 +43,7 @@
         .card:hover { transform: scale(1.03); transition: transform 0.3s; }
 
         footer {
-            background: #2575fc;
+            background: #061222;
             color: white;
             padding: 40px 0 20px;
             text-align: center;
@@ -57,20 +57,51 @@
         footer a:hover {
             text-decoration: underline;
         }
+
+        @media (max-width: 768px) {
+          .hero {
+            height: 55vh;
+          }
+          #heroCarousel .carousel-item img {
+            height: 55vh;
+          }
+          .hero-content {
+            padding: 10px;
+          }
+          .hero h1 {
+            font-size: 1.5rem;
+          }
+          .hero p {
+            font-size: 0.95rem;
+          }
+          .services .row {
+            flex-direction: column;
+          }
+          .card {
+            margin-bottom: 20px;
+          }
+          .card img {
+            height: 160px;
+          }
+          .navbar .container {
+            flex-direction: column;
+            align-items: flex-start;
+          }
+        }
     </style>
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top"> 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="jlyn.html">Joilyn's</a>
+            <a class="navbar-brand" href="sitos.html">Sito's Panabo</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="jlyn.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sitos.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link active" href="service.html">Services</a></li>
                     <li class="nav-item"><a class="nav-link" href="Booking.html">Booking</a></li>
                     <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
@@ -220,7 +251,7 @@
             <p>Contact us on 
                 <a href="https://www.facebook.com/sitospanabo" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
             </p>
-            <p>&copy; Sito's. All rights reserved.</p>
+            <p>&copy; 2025 Sito's Panabo. All rights reserved.</p>
         </div>
     </footer>
 
